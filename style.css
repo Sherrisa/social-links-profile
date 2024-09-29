@@ -9,19 +9,89 @@
   --white: hsl(0, 0%, 100%);
   --grey700: hsl(0, 0%, 20%);
   --grey800: hsl(0, 0%, 12%);
-  --grey900: 900: hsl(0, 0%, 8%);
+  --grey900: hsl(0, 0%, 8%);
 }
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 14px;
-
+  background: var(--grey900);
+  color: var(--white);
 }
 
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  background: var(--grey800);
+  font-size: 0.875rem;
+  padding: 1.5rem;
+}
+
+.card-img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 50%;
+}
+
+.card-name-location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.card-location {
+  color: var(--green);
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--grey700);
+  font-weight: 700;
+  width: 100%;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+footer {
+  text-align: center;
+}
 .attribution {
-  font-size: 11px;
+  font-size: 0.75rem;
+  color: var(--white);
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--white);
 }
