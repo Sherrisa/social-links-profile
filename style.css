@@ -16,6 +16,7 @@ body {
   font-family: "Inter", sans-serif;
   background: var(--grey900);
   color: var(--white);
+  line-height: 1.5;
 }
 
 main {
@@ -51,13 +52,11 @@ main {
 .card-name {
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.5;
 }
 
 .card-location {
   color: var(--green);
   font-weight: 700;
-  line-height: 1.5;
 }
 
 .card-links {
@@ -67,7 +66,7 @@ main {
   width: 100%;
 }
 
-button {
+li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,16 +74,15 @@ button {
   font-weight: 700;
   width: 100%;
   padding: 0.75rem;
-  border: none;
   border-radius: 0.5rem;
 }
 
-button:hover {
+li:hover {
   background: var(--green);
   cursor: pointer;
 }
 
-button:hover a {
+li:hover a {
   color: var(--grey700);
 }
 
@@ -108,6 +106,6 @@ footer {
 @media only screen and (min-width: 576px) {
   .card {
     max-width: 384px;
-    padding: 2.5rem;
+    padding: 2rem;
   }
 }

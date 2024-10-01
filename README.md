@@ -32,7 +32,7 @@ Want some support on the challenge? [Join our community](https://www.frontendmen
 ### Links
 
 - Solution URL: [https://github.com/Sherrisa/social-links-profile](https://github.com/Sherrisa/social-links-profile)
-- Live Site URL: [https://sherrisa.github.io/social-links-profile/](https://sherrisa.github.io/social-links-profile/)
+- Live Site URL: [https://sherrisa.github.io/social-links-profile/](https://sherrisa.github.io/social-links-profile)
 
 ## My process
 
