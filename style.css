@@ -26,7 +26,7 @@ main {
 }
 
 .card {
-  width: 327px;
+  max-width: 327px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,6 +79,15 @@ button {
   border-radius: 0.5rem;
 }
 
+button:hover {
+  background: var(--green);
+  cursor: pointer;
+}
+
+button:hover a {
+  color: var(--grey700);
+}
+
 a {
   text-decoration: none;
   color: var(--white);
@@ -94,4 +103,11 @@ footer {
 }
 .attribution a {
   color: var(--white);
+}
+
+@media only screen and (min-width: 768px) {
+  .card {
+    max-width: 384px;
+    padding: 2.5rem;
+  }
 }
