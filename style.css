@@ -105,7 +105,7 @@ footer {
   color: var(--white);
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 576px) {
   .card {
     max-width: 384px;
     padding: 2.5rem;
