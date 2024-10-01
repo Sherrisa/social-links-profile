@@ -62,7 +62,7 @@ main {
 .card-links {
   display: flex;
   flex-direction: column;
-  rem;
+  gap: 1rem;
   width: 100%;
 }
 
