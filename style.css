@@ -62,7 +62,7 @@ main {
 .card-links {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  rem;
   width: 100%;
 }
 
@@ -106,6 +106,6 @@ footer {
 @media only screen and (min-width: 576px) {
   .card {
     max-width: 384px;
-    padding: 2rem;
+    padding: 2.5rem;
   }
 }
